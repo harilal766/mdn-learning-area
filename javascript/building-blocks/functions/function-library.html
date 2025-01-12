@@ -20,6 +20,11 @@
     const input = document.querySelector('.numberInput');
     const para = document.querySelector('p');
 
+    input.addEventListener('change', function () {
+      para = input;
+      return para; console.log(para);
+    });
+
   </script>
 </body>
 </html>
